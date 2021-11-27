@@ -23,9 +23,9 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 1000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
 
---- NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0;
---- NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0;
---- NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0;
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 16;
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 4;
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 8;
 
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600 --- convenience so you can split wings down to 200 easily
 
