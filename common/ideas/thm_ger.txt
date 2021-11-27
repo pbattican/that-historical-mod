@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		GER_molotov_ribbentrob_pact_thm = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_molotov_ribbentrob_pact_thm"}
+			modifier = {
+			}
+			picture = HUN_treaty_of_triannon
+		}
+	}
+
+}
