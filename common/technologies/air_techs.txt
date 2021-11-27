@@ -1574,9 +1574,9 @@ technologies = {
 	
 	strategic_bomber2 = {
 
-		allow = {
-            always = no
-        }
+		allow_branch = {
+			always = no
+		}
 
 		enable_equipments = {
 			strat_bomber_equipment_2
