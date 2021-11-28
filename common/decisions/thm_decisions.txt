@@ -1,0 +1,92 @@
+thm_foreign_decisions = {
+	thm_annex_new_zealand = {
+		allowed = {
+			original_tag = AST
+		}
+		available = {
+			NZL = {
+				is_ai = yes
+				exists = yes
+			}
+		}
+
+		fire_only_once = yes
+		complete_effect = {
+			AST = {
+				annex_country = {
+					target = NZL
+					transfer_troops = yes
+				}
+				every_state = {
+					limit = {
+						is_core_of = NZL
+						is_controlled_by = AST
+					}
+					add_core_of = AST
+				}	
+			}
+		}
+	}
+
+	thm_annex_siam = {
+		allowed = {
+			original_tag = JAP
+		}
+		available = {
+			date > 1940.1.1
+			SIA = {
+				is_ai = yes
+				exists = yes
+			}
+		}
+
+		fire_only_once = yes
+		complete_effect = {
+			JAP = {
+				annex_country = {
+					target = SIA
+					transfer_troops = yes
+				}
+				every_state = {
+					limit = {
+						is_core_of = SIA
+						is_controlled_by = JAP
+					}
+					set_compliance = 100
+				}	
+			}
+		}
+	}
+
+	thm_annex_phillipenes = {
+		icon = generic_army_support
+
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			PHI = { 
+				is_ai = yes 
+				exists = yes
+			}	
+		}
+		
+		fire_only_once = yes
+		selectable_mission = yes
+		days_mission_timeout = 30
+		complete_effect = {
+			annex_country = { 
+				target = PHI 
+				transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = PHI
+					is_controlled_by = USA
+					}
+				set_compliance = 100
+			}			
+		}
+	}
+}

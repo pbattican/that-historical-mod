@@ -7979,7 +7979,7 @@
 		y = 0
 		cost = 10
 		offset = {
-			x = -16
+			x = -20
 			y = 0
 			trigger = {
 				always = yes
@@ -8471,7 +8471,7 @@
 		y = 0
 		cost = 10
 		offset = {
-			x = -17
+			x = -21
 			y = 0
 			trigger = {
 				always = yes

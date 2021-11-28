@@ -70,7 +70,8 @@ focus_tree = {
 			x = -12
 			y = 0
 			trigger = {
-				not = { has_dlc = "Man the Guns" }
+				#not = { has_dlc = "Man the Guns" }
+				always = yes
 			}
 		}
 
@@ -4127,10 +4128,11 @@ focus_tree = {
 		x = 42
 		y = 0
 		offset = {
-			x = -26
+			x = -30
 			y = 0
 			trigger = {
-				not = { has_dlc = "Man the Guns" }
+				#not = { has_dlc = "Man the Guns" }
+				always = yes
 			}
 		}
 		
@@ -4893,7 +4895,8 @@ focus_tree = {
 			x = -26
 			y = 0
 			trigger = {
-				not = { has_dlc = "Man the Guns" }
+				#not = { has_dlc = "Man the Guns" }
+				always = yes
 			}
 		}
 		cost = 10
