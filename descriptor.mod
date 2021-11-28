@@ -5,5 +5,7 @@ tags={
 	"Fixes"
 	"Utilities"
 }
+picture="thumbnail.png"
 name="that historical mod"
-supported_version="1.11.1"
+supported_version="1.11.4"
+remote_file_id="2666417937"
