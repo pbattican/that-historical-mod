@@ -1,4 +1,4 @@
---- 11/25/2021 - THM Force Update
+--- 12/05/2021 - THM Force Update for BRAD
 
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 60
@@ -10,13 +10,13 @@ NDefines_Graphics.NGraphics.MAP_BUILDINGS_SHRINK_DISTANCE = 100				-- 180
 
 --- Game ---
 --- NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12
-NDefines.NGame.GAME_SPEED_SECONDS = { 600, 600, 0.2, 0.15, 0.05 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 600, 600, 0.2, 0.1, 0.075 }
 
 --- Military ---
 
 --- Should prevent peace events appearing for all players if there aren't winners and losers on both sides. 
---- NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 4
---- NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 0
+NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 3
+NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 0
 
 --- Boost Max XP so it is not lost to the ether
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 1000

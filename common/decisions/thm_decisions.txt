@@ -33,7 +33,7 @@ thm_foreign_decisions = {
 			original_tag = JAP
 		}
 		available = {
-			date > 1940.1.1
+			date > 1938.1.1
 			SIA = {
 				is_ai = yes
 				exists = yes
@@ -73,8 +73,6 @@ thm_foreign_decisions = {
 		}
 		
 		fire_only_once = yes
-		selectable_mission = yes
-		days_mission_timeout = 30
 		complete_effect = {
 			annex_country = { 
 				target = PHI 
