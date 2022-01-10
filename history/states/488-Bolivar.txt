@@ -6,13 +6,13 @@ state={
 	
 	state_category = pastoral
 
-	history={
+	resources={
+		tungsten = 95 # from argentina + bolivia
+		steel = 31 # from chile + argentina + uruguay + bolivia
+		oil = 50 # from peru + argentina + columbia
+	}
 
-		resources={
-			tungsten = 95 # from argentina + bolivia
-			steel = 31 # from chile + argentina + uruguay + bolivia
-			oil = 50 # from peru + argentina + columbia
-		}
+	history={
 
 		owner = VEN
 		buildings = {
