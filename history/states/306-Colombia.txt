@@ -7,14 +7,17 @@ state={
 	state_category = city
 	
 	history={
-		owner = COL
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = COL
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 5
+			arms_factory = 0
+			industrial_complex = 0
 			air_base = 2
 		}
-		add_core_of = COL
+#		add_core_of = COL
 		victory_points = {
 			10747 10
 		}

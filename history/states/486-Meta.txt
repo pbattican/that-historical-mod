@@ -7,11 +7,14 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = COL
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = COL
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = COL
+#		add_core_of = COL
 	}
 
 	provinces={

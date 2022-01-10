@@ -7,10 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = CHL
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = CHL
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 0
 			air_base = 1
 			12994 = {
 				naval_base = 1
@@ -19,7 +22,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = CHL
+#		add_core_of = CHL
 		victory_points = {
 			12994 1
 		}

@@ -10,17 +10,20 @@ state={
 	state_category = large_town
 
 	history={
-		owner = ARG
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = ARG
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 4
+			industrial_complex = 0
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 0
 		}
 		victory_points = {
 			7500 1 
 		}
-		add_core_of = ARG
+#		add_core_of = ARG
 	}
 
 	provinces={

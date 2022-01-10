@@ -11,12 +11,15 @@ state={
 		steel=1 # was: 2
 	}
 	history={
-		owner = URG
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = URG
 		buildings = {
 			infrastructure = 3 #was: 5
-			arms_factory = 1
-			industrial_complex = 6
-			dockyard = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
 			air_base = 1
 			10362 = {
 				naval_base = 6
@@ -24,7 +27,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = URG
+#		add_core_of = URG
 		victory_points = {
 			10362 5
 		}

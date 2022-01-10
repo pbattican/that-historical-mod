@@ -11,11 +11,14 @@ state={
 	}
 
 	history={
-		owner = CHL
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = CHL
 		buildings = {
 			infrastructure = 3 #was: 5
-			arms_factory = 1
-			industrial_complex = 7
+			arms_factory = 0
+			industrial_complex = 0
 			air_base = 3
 			8222 = {
 				naval_base = 5
@@ -27,7 +30,7 @@ state={
 				bunker = 1
 			}
 		}
-		add_core_of = CHL
+#		add_core_of = CHL
 		victory_points = {
 			650 10
 		}

@@ -7,12 +7,15 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ARG
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = ARG
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 2
-			industrial_complex = 5
-			dockyard = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
 			air_base = 4
 			12364 = {
 				naval_base = 7
@@ -26,7 +29,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = ARG
+#		add_core_of = ARG
 		victory_points = {
 			12364 10 
 		}

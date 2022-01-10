@@ -1,7 +1,15 @@
 
+# Add 160 oil to Brazil to balance removal of other south american states
+# Add 10 rubber from belgian congo
+
 state={
 	id=280
 	name="STATE_280"
+
+	resources={
+		oil=144 # was: 1
+		rubber = 10 # 
+	}
 	
 	state_category = pastoral
 

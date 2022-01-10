@@ -10,11 +10,14 @@ state={
 	state_category = town
 
 	history={
-		owner = GUA
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = GUA
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2 
+			arms_factory = 0
+			industrial_complex = 0
 			air_base = 1
 			10886 = {
 				naval_base = 1
@@ -23,7 +26,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = GUA
+#		add_core_of = GUA
 		victory_points = {
 			10886 3 
 		}

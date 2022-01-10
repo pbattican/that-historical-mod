@@ -9,8 +9,11 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
-		owner = POR
-		add_core_of = GNB
+#		owner = POR
+#		add_core_of = GNB		
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
 		victory_points = {
 			12891 1
 		}

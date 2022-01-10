@@ -8,7 +8,9 @@ state={
 	}
 
 	history={
-		owner = MON
+		# mod to remove non-needed nations
+		owner = SOV
+		# owner = MON
 		victory_points = {
 			4801 10
 		}
@@ -17,12 +19,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 3
+			# reduced from mod, intent is speed, not boost
+			# arms_factory = 1
+			# industrial_complex = 3
 			air_base = 1
 
 		}
-		add_core_of = MON
+		# add_core_of = MON
+		add_core_of = SOV
 
 	}
 

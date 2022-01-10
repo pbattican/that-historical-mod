@@ -8,16 +8,19 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = TIB
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = TIB
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 0
+			arms_factory = 0
 		}
 		victory_points = {
 			5033 5 
 		}
-		add_core_of = TIB
+#		add_core_of = TIB
 
 	}
 

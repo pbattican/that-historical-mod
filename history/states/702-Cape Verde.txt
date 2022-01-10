@@ -6,7 +6,10 @@ state={
 	state_category = small_island
 
 	history={
-		owner = POR
+		# TODO: Remove from Hostland.
+		owner = BAD
+		add_core_of = BAD
+#		owner = POR
 		buildings = {
 			infrastructure = 2
 			13014 ={

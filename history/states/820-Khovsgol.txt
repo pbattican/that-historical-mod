@@ -6,7 +6,9 @@ state={
 	}
 
 	history={
-		owner = MON
+		# mod to remove non-needed nations
+		owner = SOV
+		# owner = MON
 		buildings = {
 			infrastructure = 1
 		}
@@ -16,7 +18,8 @@ state={
 		victory_points = {
 			1834 1 #Erdenet
 		}
-		add_core_of = MON
+		add_core_of = SOV
+		# add_core_of = MON
 	}
 	manpower=88200
 	buildings_max_level_factor=1.000
