@@ -10,7 +10,7 @@ state={
 	state_category = large_city
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = PRU

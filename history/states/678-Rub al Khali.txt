@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = SAU

@@ -10,7 +10,7 @@ state={
 		tungsten=3 # was: 3
 	}
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = AFG

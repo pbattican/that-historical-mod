@@ -9,7 +9,7 @@ state={
 	state_category = city
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = BOL

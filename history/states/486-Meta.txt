@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = COL

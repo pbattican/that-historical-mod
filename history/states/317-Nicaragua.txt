@@ -8,7 +8,7 @@ state={
 	state_category = town
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = NIC

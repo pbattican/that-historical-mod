@@ -6,7 +6,7 @@ state=
 	manpower=11532
 	history=
 	{
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = ECU

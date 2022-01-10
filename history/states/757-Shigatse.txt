@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = TIB

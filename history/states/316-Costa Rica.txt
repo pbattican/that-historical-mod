@@ -11,7 +11,7 @@ state={
 	
 
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = COS

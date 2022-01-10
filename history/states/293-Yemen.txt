@@ -10,7 +10,7 @@ state={
 		oil=1 # was: 1
 	}
 	history={
-		# TODO: Remove from Hostland.
+		# 
 		owner = BAD
 		add_core_of = BAD
 #		owner = YEM
