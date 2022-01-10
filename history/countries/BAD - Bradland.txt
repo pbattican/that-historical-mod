@@ -1,0 +1,42 @@
+﻿capital = 124
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+
+}
+
+set_convoys = 0
+set_research_slots = 0
+set_stability = 0.35
+set_war_support = 0.5
+
+1939.1.1 = {
+	set_technology = {
+	}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "John Cenna"
+	picture = "GFX_Portrait_Europe_Generic_3"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+	
+#Make BAD unable to trade
+add_ideas = {
+	closed_economy
+}
