@@ -7,15 +7,19 @@ state={
 	state_category = pastoral
 
 	history={
-		# 
-		owner = BAD
-		add_core_of = BAD
-#		owner = VEN
+
+		resources={
+			tungsten = 95 # from argentina + bolivia
+			steel = 31 # from chile + argentina + uruguay + bolivia
+			oil = 50 # from peru + argentina + columbia
+		}
+
+		owner = VEN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
-#		add_core_of = VEN
+		add_core_of = VEN
 		victory_points = {
 			10879 1
 		}

@@ -7,6 +7,10 @@ set_technology = {
 
 }
 
+add_ideas = {
+	closed_economy
+}
+
 set_convoys = 0
 set_research_slots = 0
 set_stability = 0.35
@@ -34,9 +38,4 @@ create_country_leader = {
 	traits = {
 		
 	}
-}
-	
-#Make BAD unable to trade
-add_ideas = {
-	closed_economy
 }

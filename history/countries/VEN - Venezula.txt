@@ -1,0 +1,38 @@
+﻿capital = 307
+
+# Starting tech
+set_technology = {
+
+}
+
+add_ideas = {
+	free_trade
+}
+
+
+set_country_flag = monroe_doctrine
+
+1939.1.1 = {
+
+	set_technology = {
+
+	}
+}
+
+set_research_slots = 0
+set_stability = 0.35
+set_war_support = 0.5
+set_convoys = 0
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	fascism = 80
+	communism = 15
+}
+
