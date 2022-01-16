@@ -10,12 +10,12 @@ NDefines_Graphics.NGraphics.MAP_BUILDINGS_SHRINK_DISTANCE = 100				-- 180
 
 --- Game ---
 --- NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12
-NDefines.NGame.GAME_SPEED_SECONDS = { 600, 600, 0.2, 0.1, 0.075 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.05 }
 
 --- Military ---
 
 --- Should prevent peace events appearing for all players if there aren't winners and losers on both sides. 
-NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 3
+NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 4
 NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 0
 
 --- Boost Max XP so it is not lost to the ether
