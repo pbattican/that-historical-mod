@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = french_focus
 	
 	country = {
@@ -315,6 +315,7 @@
 						has_state_flag = FRA_colonial_industry_target
 					}
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -334,6 +335,7 @@
 						has_state_flag = FRA_colonial_industry_target
 					}
 				}
+				add_extra_state_shared_building_slots = 2 #States already got 2 building slots and 2 civs in previous focuses, so let's just add 2 more slots and mils here
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -824,6 +826,7 @@
 					is_controlled_by = ROOT
 					is_core_of = ROOT
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -835,6 +838,7 @@
 					is_controlled_by = ROOT
 					is_core_of = ROOT
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -1816,6 +1820,7 @@
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -5437,7 +5442,7 @@
 				OR = {
 					has_government = ROOT
 					AND = {
-						has_country_leader = { name = "Francisco Franco" }
+						has_country_leader = { character = SPA_francisco_franco }
 						ROOT = {
 							has_government = fascism
 						}
@@ -5475,7 +5480,7 @@
 					original_tag = SPR
 					OR = {
 						has_government = ROOT
-						has_country_leader = { name = "Francisco Franco" ruling_only = yes }
+						has_country_leader = { character = SPA_francisco_franco ruling_only = yes }
 						NOT = {
 							has_global_flag = spanish_civil_war #to make the focus show an effect before the SCW breaks out
 						}
@@ -8004,6 +8009,7 @@
 			21 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -8015,6 +8021,7 @@
 			14 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -8104,6 +8111,7 @@
 			459 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -8115,6 +8123,7 @@
 			272 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -8126,6 +8135,7 @@
 			286 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -8156,6 +8166,7 @@
 					is_coastal = yes
 					is_controlled_by = ROOT
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
 					level = 3

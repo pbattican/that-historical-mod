@@ -134,7 +134,7 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				date > 1940.1.1
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -1361,7 +1361,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > 1940.1.1
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -1396,7 +1396,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > 1940.1.1
+				date > "1940.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {

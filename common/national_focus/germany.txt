@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -2381,7 +2381,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 3
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 						create_equipment_variant = {
 							name = "Panzer IV Ausf. A"
@@ -2400,7 +2400,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 2
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 					}
 				}
@@ -2424,7 +2424,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 3
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 						create_equipment_variant = {
 							name = "Panzer IV Ausf. A"
@@ -2443,7 +2443,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 2
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}	
 					}
 				}
@@ -6913,7 +6913,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			NOT = { has_war_with = ITA }
-			ITA = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
+			ITA = { has_country_leader = { ruling_only = yes character = ITA_benito_mussolini } }
 		}
 		cancel_if_invalid = yes
 		x = 0
@@ -8020,16 +8020,19 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				AND = {
-					is_in_faction_with = AUS
-					is_in_faction_with = CZE
-					is_in_faction_with = HUN
-				}
-				AND = {
-					NOT = { country_exists = AUS }
-					NOT = { country_exists = CZE }
-					NOT = { country_exists = HUN }
-				}
+				NOT = { country_exists = AUS }
+				AUS = { is_subject = yes }
+				is_in_faction_with = AUS
+			}
+			OR = {
+				NOT = { country_exists = CZE }
+				CZE = { is_subject = yes }
+				is_in_faction_with = HUN
+			}
+			OR = {
+				NOT = { country_exists = HUN }
+				HUN = { is_subject = yes }
+				is_in_faction_with = HUN
 			}
 		}
 		cancel_if_invalid = yes
@@ -8052,6 +8055,7 @@ focus_tree = {
 						}
 					}
 					exists = yes
+					is_subject = no
 				}
 				AUS = {
 					country_event = { id = generic.5 }
@@ -8066,6 +8070,7 @@ focus_tree = {
 						}
 					}
 					exists = yes
+					is_subject = no
 				}
 				CZE = {
 					country_event = { id = generic.5 }
@@ -8080,6 +8085,7 @@ focus_tree = {
 						}
 					}
 					exists = yes
+					is_subject = no
 				}
 				HUN = {
 					country_event = { id = generic.5 }
@@ -8099,13 +8105,15 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				AND = {
-					is_in_faction_with = YUG
-					is_in_faction_with = ROM
-				}
-				AND = {
+				OR = {
 					NOT = { country_exists = YUG }
+					YUG = { is_subject = yes }
+					is_in_faction_with = YUG
+				}
+				OR = {
 					NOT = { country_exists = ROM }
+					ROM = { is_subject = yes }
+					is_in_faction_with = ROM
 				}
 			}
 		}
@@ -8129,6 +8137,7 @@ focus_tree = {
 						}
 						is_in_faction = no
 						exists = yes
+						is_subject = no
 					}
 				}
 				YUG = {
@@ -8145,6 +8154,7 @@ focus_tree = {
 					}
 					is_in_faction = no
 					exists = yes
+					is_subject = no
 				}
 				ROM = {
 					country_event = { id = generic.5 }
@@ -8299,15 +8309,20 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				AND = {
-					is_in_faction_with = HOL
-					is_in_faction_with = BEL
-					is_in_faction_with = LUX
-				}
-				AND = {
+				OR = {
 					NOT = { country_exists = HOL }
+					HOL = { is_subject = yes }
+					is_in_faction_with = HOL
+				}
+				OR = {
 					NOT = { country_exists = BEL }
+					BEL = { is_subject = yes }
+					is_in_faction_with = BEL
+				}
+				OR = {
 					NOT = { country_exists = LUX }
+					LUX = { is_subject = yes }
+					is_in_faction_with = LUX
 				}
 			}
 		}
@@ -8329,6 +8344,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				HOL = {
@@ -8342,6 +8358,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				BEL = {
@@ -8355,6 +8372,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				LUX = {
@@ -8510,15 +8528,20 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				AND = {
-					is_in_faction_with = NOR
-					is_in_faction_with = SWE
-					is_in_faction_with = DEN
-				}
-				AND = {
+				OR = {
 					NOT = { country_exists = NOR }
+					NOR = { is_subject = yes }
+					is_in_faction_with = NOR
+				}
+				OR = {
 					NOT = { country_exists = SWE }
+					SWE = { is_subject = yes }
+					is_in_faction_with = SWE
+				}
+				OR = {
 					NOT = { country_exists = DEN }
+					DEN = { is_subject = yes }
+					is_in_faction_with = DEN
 				}
 			}
 		}
@@ -8540,6 +8563,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				NOR = {
@@ -8553,6 +8577,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				SWE = {
@@ -8566,6 +8591,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				DEN = {
@@ -8599,6 +8625,7 @@ focus_tree = {
 					is_in_faction_with = SOV
 					exists = no
 					has_war_with = SOV
+					is_subject = yes
 				}
 			}
 			LAT = {
@@ -8607,6 +8634,7 @@ focus_tree = {
 					is_in_faction_with = SOV
 					exists = no
 					has_war_with = SOV
+					is_subject = yes
 				}
 			}
 			LIT = {
@@ -8615,6 +8643,7 @@ focus_tree = {
 					is_in_faction_with = SOV
 					exists = no
 					has_war_with = SOV
+					is_subject = yes
 				}
 			}
 		}
@@ -8637,6 +8666,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				EST = {
@@ -8655,6 +8685,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				LAT = {
@@ -8673,6 +8704,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				LIT = {
@@ -8715,6 +8747,7 @@ focus_tree = {
 			OR = {
 				is_in_faction_with = POL
 				NOT = { country_exists = POL }
+				POL = { is_subject = yes }
 				SOV = { 
 					OR = {
 						is_in_faction_with = POL
@@ -8742,6 +8775,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				POL = {
@@ -8798,6 +8832,7 @@ focus_tree = {
 			OR = {
 				is_in_faction_with = FIN
 				NOT = { country_exists = FIN }
+				is_subject = yes
 				SOV = { 
 					OR = { 
 						is_in_faction_with = FIN
@@ -8825,6 +8860,7 @@ focus_tree = {
 							has_government = communism
 							has_government = fascism
 						}
+						is_subject = no
 					}
 				}
 				FIN = {
